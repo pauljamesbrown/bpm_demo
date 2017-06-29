@@ -1,0 +1,15 @@
+
+<form id="1934887976">
+<property name="name" value="FinalApproval-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="applicationApproved" type="CheckBox" id="868193631">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ApproveApplication (applicationApproved)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ApproveApplication"/>
+<property name="outputBinding" value="ApproveApplication"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="ApproveApplication" name="#E9E371" type="basicType" outId="ApproveApplication" value="java.lang.Boolean" id="applicationApproved"/>
+</form>
