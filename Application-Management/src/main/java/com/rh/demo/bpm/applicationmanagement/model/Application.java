@@ -11,25 +11,18 @@ public class Application implements java.io.Serializable
 
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label("Demographics")
    private com.rh.demo.bpm.applicationmanagement.model.Demographics demographics;
 
-   @org.kie.api.definition.type.Label("Address")
    private java.util.List<com.rh.demo.bpm.applicationmanagement.model.Address> address;
 
-   @org.kie.api.definition.type.Label("Email")
    private com.rh.demo.bpm.applicationmanagement.model.Email email;
 
-   @org.kie.api.definition.type.Label("Phone")
    private com.rh.demo.bpm.applicationmanagement.model.Phone phone;
 
-   @org.kie.api.definition.type.Label("FinancialInformation")
    private com.rh.demo.bpm.applicationmanagement.model.FinancialInformation financialInformation;
 
-   @org.kie.api.definition.type.Label("EmploymentDetails")
    private java.util.List<com.rh.demo.bpm.applicationmanagement.model.EmploymentDetails> employmentDetails;
 
-   @org.kie.api.definition.type.Label("personalDetails")
    private com.rh.demo.bpm.applicationmanagement.model.PersonalDetails personalDetails;
 
    public Application()
