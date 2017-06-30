@@ -13,20 +13,14 @@ public class FinancialInformation implements java.io.Serializable
 
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "HasForeseeableFinancialChanges")
    private java.lang.Boolean hasForeseeableFinancialChanges;
 
-   @org.kie.api.definition.type.Label(value = "NonBankDebtObligationFlag")
    private java.lang.Boolean nonBankDebtObligationFlag;
 
-   @org.kie.api.definition.type.Label(value = "ExpenseDetails")
    private java.util.List<com.rh.demo.bpm.applicationmanagement.model.ExpenseDetails> expenseDetails;
 
-
-   @org.kie.api.definition.type.Label(value = "IncomeDetails")
    private java.util.List<com.rh.demo.bpm.applicationmanagement.model.IncomeDetails> incomeDetails;
 
-   @org.kie.api.definition.type.Label(value = "ExistingLoanDetails")
    private java.util.List<com.rh.demo.bpm.applicationmanagement.model.existingLoanDetails> existingLoanDetails;
 
    public FinancialInformation()
