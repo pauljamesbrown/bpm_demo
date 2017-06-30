@@ -13,25 +13,18 @@ public class Phone implements java.io.Serializable
 
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "PhoneType")
    private java.lang.String phoneType;
 
-   @org.kie.api.definition.type.Label(value = "PhoneCountryCode")
    private java.lang.String phoneCountryCode;
 
-   @org.kie.api.definition.type.Label(value = "AreaCode")
    private java.lang.String areaCode;
 
-   @org.kie.api.definition.type.Label(value = "PhoneNumber")
    private java.lang.String phoneNumber;
 
-   @org.kie.api.definition.type.Label(value = "Extension")
    private java.lang.String extension;
 
-   @org.kie.api.definition.type.Label(value = "OkToSMS")
    private java.lang.Boolean okToSMS;
 
-   @org.kie.api.definition.type.Label(value = "OkToCall")
    private java.lang.Boolean okToCall;
 
    public Phone()
