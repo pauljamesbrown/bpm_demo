@@ -11,13 +11,10 @@ public class CompanyDetails implements java.io.Serializable
 
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label("CompanyName")
    private java.lang.String companyName;
 
-   @org.kie.api.definition.type.Label("TradingYears")
    private java.lang.Integer tradingYears;
 
-   @org.kie.api.definition.type.Label("DunsNumber")
    private java.lang.Integer dunsNumber;
 
    public CompanyDetails()
