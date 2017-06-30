@@ -11,7 +11,6 @@ public class StatusList implements java.io.Serializable
 
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label("Status")
    private java.util.List<com.rh.demo.bpm.applicationmanagement.model.Status> status;
 
    public StatusList()
