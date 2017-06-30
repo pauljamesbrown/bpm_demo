@@ -11,10 +11,8 @@ public class Status implements java.io.Serializable
 
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label("status")
    private java.lang.String status;
 
-   @org.kie.api.definition.type.Label("statusDate")
    private java.util.Date statusDate;
 
    public Status()
