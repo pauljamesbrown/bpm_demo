@@ -13,16 +13,12 @@ public class EmploymentDetails implements java.io.Serializable
 
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label("EmployerName")
    private java.lang.String employerName;
 
-   @org.kie.api.definition.type.Label("JobTitle")
    private java.lang.String jobTitle;
 
-   @org.kie.api.definition.type.Label("EmploymentStatus")
-   private java.lang.String employmentStatus;
+    private java.lang.String employmentStatus;
 
-   @org.kie.api.definition.type.Label(value = "EmploymentDurationInYears")
    private java.lang.Integer employmentDurationInYears;
 
    public EmploymentDetails()
