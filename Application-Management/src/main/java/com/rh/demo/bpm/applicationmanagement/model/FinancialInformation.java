@@ -19,15 +19,13 @@ public class FinancialInformation implements java.io.Serializable
    @org.kie.api.definition.type.Label(value = "NonBankDebtObligationFlag")
    private java.lang.Boolean nonBankDebtObligationFlag;
 
-   @javax.persistence.OneToMany(cascade = { javax.persistence.CascadeType.ALL }, fetch = javax.persistence.FetchType.EAGER)
    @org.kie.api.definition.type.Label(value = "ExpenseDetails")
    private java.util.List<com.rh.demo.bpm.applicationmanagement.model.ExpenseDetails> expenseDetails;
 
-   @javax.persistence.OneToMany(cascade = { javax.persistence.CascadeType.ALL }, fetch = javax.persistence.FetchType.EAGER)
+
    @org.kie.api.definition.type.Label(value = "IncomeDetails")
    private java.util.List<com.rh.demo.bpm.applicationmanagement.model.IncomeDetails> incomeDetails;
 
-   @javax.persistence.OneToMany(cascade = { javax.persistence.CascadeType.ALL }, fetch = javax.persistence.FetchType.EAGER)
    @org.kie.api.definition.type.Label(value = "ExistingLoanDetails")
    private java.util.List<com.rh.demo.bpm.applicationmanagement.model.existingLoanDetails> existingLoanDetails;
 
