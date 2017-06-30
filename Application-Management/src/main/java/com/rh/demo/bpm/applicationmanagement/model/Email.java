@@ -13,10 +13,8 @@ public class Email implements java.io.Serializable
 
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label("EmailAddress")
    private java.lang.String emailAddress;
 
-   @org.kie.api.definition.type.Label("OkToEmail")
    private java.lang.String okToEmail;
 
    public Email()
