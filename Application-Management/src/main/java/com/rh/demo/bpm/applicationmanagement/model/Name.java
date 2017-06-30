@@ -13,19 +13,14 @@ public class Name implements java.io.Serializable
 
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label("Salutation")
    private java.lang.String salutation;
 
-   @org.kie.api.definition.type.Label("GivenName")
    private String givenName;
 
-   @org.kie.api.definition.type.Label("MiddleName")
    private java.lang.String middleName;
 
-   @org.kie.api.definition.type.Label("Surname")
    private java.lang.String surname;
 
-   @org.kie.api.definition.type.Label("FullName")
    private java.lang.String fullName;
 
    public Name()
