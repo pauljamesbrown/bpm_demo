@@ -13,13 +13,10 @@ public class ExpenseDetails implements java.io.Serializable
 
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "ExpenseType")
    private java.lang.String expenseType;
 
-   @org.kie.api.definition.type.Label(value = "ExpenseAmount")
    private java.math.BigDecimal expenseAmount;
 
-   @org.kie.api.definition.type.Label(value = "Frequency")
    private java.lang.String frequency;
 
    public ExpenseDetails()
