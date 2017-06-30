@@ -11,13 +11,10 @@ public class CreditDetails implements java.io.Serializable
 
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label("creditAmount")
    private java.lang.Integer creditAmount;
 
-   @org.kie.api.definition.type.Label("LoanTakenIndicator")
    private java.lang.Boolean loanTakenIndicator;
 
-   @org.kie.api.definition.type.Label("MonthlyRepaymentForAllExtLoans")
    private java.lang.Integer monthlyRepaymentForAllExtLoans;
 
    public CreditDetails()
