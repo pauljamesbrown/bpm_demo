@@ -13,19 +13,14 @@ public class existingLoanDetails implements java.io.Serializable
  
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label("LoanType")
    private java.lang.String loanType;
 
-   @org.kie.api.definition.type.Label("MonthlyInstallmentAmount")
    private java.math.BigDecimal monthlyInstallmentAmount;
 
-   @org.kie.api.definition.type.Label("OutstandingBalanceAmount")
    private java.math.BigDecimal outstandingBalanceAmount;
 
-   @org.kie.api.definition.type.Label("DebtOwnership")
    private java.lang.String debtOwnership;
 
-   @org.kie.api.definition.type.Label("LenderName")
    private java.lang.String lenderName;
 
    public existingLoanDetails()
