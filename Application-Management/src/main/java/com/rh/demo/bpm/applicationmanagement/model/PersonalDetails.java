@@ -9,15 +9,10 @@ public class PersonalDetails implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "name")
    private com.rh.demo.bpm.applicationmanagement.model.Name name;
-   @org.kie.api.definition.type.Label(value = "demographics")
    private com.rh.demo.bpm.applicationmanagement.model.Demographics demographics;
-   @org.kie.api.definition.type.Label(value = "address")
    private java.util.List<com.rh.demo.bpm.applicationmanagement.model.Address> address;
-   @org.kie.api.definition.type.Label(value = "email")
    private com.rh.demo.bpm.applicationmanagement.model.Email email;
-   @org.kie.api.definition.type.Label(value = "phone")
    private com.rh.demo.bpm.applicationmanagement.model.Phone phone;
 
    public PersonalDetails()
