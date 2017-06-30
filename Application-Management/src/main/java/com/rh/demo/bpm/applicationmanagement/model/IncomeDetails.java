@@ -13,19 +13,14 @@ public class IncomeDetails implements java.io.Serializable
 
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "IncomeType")
    private java.lang.String incomeType;
 
-   @org.kie.api.definition.type.Label(value = "FixedAmount")
    private java.math.BigDecimal fixedAmount;
 
-   @org.kie.api.definition.type.Label(value = "VariableAmount")
    private java.math.BigDecimal variableAmount;
 
-   @org.kie.api.definition.type.Label(value = "Frequency")
    private java.lang.String frequency;
 
-   @org.kie.api.definition.type.Label(value = "OtherIncomeDescription")
    private java.lang.String otherIncomeDescription;
 
    public IncomeDetails()
