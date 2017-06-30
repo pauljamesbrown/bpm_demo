@@ -12,19 +12,14 @@ public class Demographics implements java.io.Serializable
 
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label("Gender")
    private java.lang.String gender;
 
-   @org.kie.api.definition.type.Label("DateOfBirth")
    private java.util.Date dateOfBirth;
-
-   @org.kie.api.definition.type.Label("BirthPlace")
+   
    private java.lang.String birthPlace;
 
-   @org.kie.api.definition.type.Label("CountryOfBirth")
    private java.lang.String countryOfBirth;
 
-   @org.kie.api.definition.type.Label("Nationality")
    private java.lang.String nationality;
 
    public Demographics()
