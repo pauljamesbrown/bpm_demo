@@ -11,22 +11,16 @@ public class Address implements java.io.Serializable
 
   private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label("AddressType")
    private java.lang.String addressType;
 
-   @org.kie.api.definition.type.Label("AddressLine1")
    private java.lang.String addressLine1;
 
-   @org.kie.api.definition.type.Label("aAddressLine2")
    private java.lang.String addressLine2;
 
-   @org.kie.api.definition.type.Label("AddressLine3")
    private java.lang.String addressLine3;
 
-   @org.kie.api.definition.type.Label("AddressLine4")
    private java.lang.String addressLine4;
 
-   @org.kie.api.definition.type.Label("CountryCode")
    private java.lang.String countryCode;
 
    public Address()
